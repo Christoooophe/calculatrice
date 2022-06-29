@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to bottom right,#eb4ee6, blue);
+    width: 100%;
+    height:100vh;
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    border: solid 4px #01014a;
+    border-radius: 5%;
+    background-color:  #FBF5F3;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+.button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    background-color:  #01014a;
+    color: azure;
+    border-radius: 15%;
+    width: 55px;
+    height: 55px;
+    cursor:pointer;
+    border:none;
+    box-shadow: 2px 2px 5px black;
+}
+.button:active{
+    background-color: purple;
+    color:azure;
+}
+.displaybox{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    border: solid 2px #01014a;
+    color: #01014a;
+    border-radius: 5px;
+    width:95%;
+    height: 50px;
+}
